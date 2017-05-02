@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	
+	line-height: 2em;
+	
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.header img {
+	margin: 0 0 0 3%;
+}
+
+.header h1 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.main {
+	margin: 4.5em 0 0 0;
+	padding: 0;
+	width: 100%;
+	
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	
+	background-image: url(../img/task5-11_02.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.main img {
+	margin: 10% 0 10% 20%;
+	width: 20%;
+}
+
+.main p {
+	margin: 0 10%;
+	
+	color: #FFFFFF;
+}
+
+
+.centent {
+	width: 100%;
+	
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+
